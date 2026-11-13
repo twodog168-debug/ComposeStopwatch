@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Compose Stopwatch</string>
+    <string name="app_version" translatable="false">1.9.0\n</string>
+    <string name="app_author" translatable="false">JustDeax (github.com/JustDeax)</string>
+    <string name="app_repo" translatable="false">github.com/JustDeax/ComposeStopwatch</string>
+
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="apply">应用</string>
+
+    <string name="stopwatch_channel">秒表通知</string>
+    <string name="stopwatch_paused">已暂停</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="stop">停止</string>
+    <string name="add_lap">计次</string>
+    <string name="last_lap">上一计次</string>
+
+    <string name="stopwatch_settings">秒表设置</string>
+    <string name="additional_action">附加操作</string>
+    <string name="auto_start_sw">启动应用时自动开始秒表</string>
+    <string name="turn_on_vibration">开启振动</string>
+    <string name="turn_off_notif">开启/关闭通知</string>
+    <string name="theme">主题</string>
+    <string name="lock_awake">保持唤醒</string>
+
+    <string name="change_tap_on_clock">更改点击时钟的操作</string>
+    <string name="change_tap_on_clock_desc">选择点击显示时间的时钟时执行的操作</string>
+    <string-array name="tap_on_clock">
+        <item name="none">无</item>
+        <item name="resume_or_pause">继续或暂停</item>
+        <item name="resume_or_add_lap">继续或计次</item>
+        <item name="resume_or_stop">继续或停止</item>
+    </string-array>
+
+    <string name="reset_stopwatch">重置秒表？</string>
+    <string name="reset_stopwatch_desc_enable">要启用通知，你需要重置秒表</string>
+    <string name="reset_stopwatch_desc_disable">要禁用通知，你需要重置秒表</string>
+
+    <string name="change_theme">更改主题</string>
+    <string name="change_theme_desc">动态主题仅在 Android 12+ 上可用\n极暗主题可为 AMOLED 屏幕省电</string>
+    <string-array name="theme">
+        <item name="system">跟随系统</item>
+        <item name="light">浅色</item>
+        <item name="dark">深色</item>
+        <item name="extra_dark">极暗</item>
+    </string-array>
+    <string-array name="theme12">
+        <item name="system">跟随系统（动态主题）</item>
+        <item name="light">浅色</item>
+        <item name="dark">深色</item>
+        <item name='extra_dark'>极暗</item>
+    </string-array>
+    
+    <string name="lock_awake_mode">屏幕常亮模式</string>
+    <string name="lock_awake_mode_desc_enable">已开启屏幕常亮</string>
+
+    <string name="auto_start_sw_title">自动开始</string>
+    <string name="auto_start_sw_desc_1">秒表将在以下时间后自动开始</string>
+    <string name="auto_start_sw_desc_2">你可以在秒表设置中完全禁用自动开始</string>
+
+    <string name="about_app">关于 Compose Stopwatch</string>
+    <string name="about_app_desc">"Material You 主题的 Android 秒表应用，专为易用性和最佳功能而设计
+
+► 秒表设置
+    • 在应用启动 3 秒后自动开始（可覆盖设置）
+    • 开启振动以获得更好的触觉反馈
+    • 选择点击时钟时执行的操作
+
+► 圆环进度
+    • 基于第一圈显示当前圈数的进度
+    • 圈进度上的短划线表示上一圈
+
+► 更改主题，提供新主题
+    • 动态主题仅在 Android 12+ 上可用
+    • 极暗主题可为 AMOLED 屏幕省电
+
+► 更改屏幕方向
+    • 竖屏模式有更多空间显示计次
+    • 横屏模式下，时间文本更大
+
+► 选择点击显示时间的时钟时执行的操作
+    • 继续或暂停
+    • 继续或计次
+    • 继续或暂停
+    • 如果你不想执行操作，可以移除该操作
+
+► 开启/关闭通知
+    • 在通知栏中控制秒表
+    • 关闭时，秒表在 ViewModel 和 DataStore 上运行
+    • 开启时，秒表在 LifecycleService 和 ForegroundService 上运行
+
+► 屏幕常亮模式
+    • 能够在不息屏的情况下查看秒表
+"</string>
+    <string name="about_app_desc_a">"作者："</string>
+    <string name="about_app_desc_r">"仓库："</string>
+    <string name="about_app_desc_v">"\n版本："</string>
+
+    <string name="changelogs">最终更新日志</string>
+    <string name="changelogs_desc">"这是该应用的最后一个更新。它包括错误修复、小的界面改进和细微更改。该应用现在功能齐全且完整。如果您发现严重错误，请将其报告到仓库（点击应用顶部的标题文本获取链接）。
+
+我将继续开发应用，包括全新的秒表"</string>
+</resources>
